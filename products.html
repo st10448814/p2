@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Shop</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script>
+        function buyNow(sneaker) {
+            alert ("You added " + sneaker + " to your cart!")
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Shop Logo">
+        Choose From Our Wide Range Of Sneakers
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="enquiries.html">Enquiry</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <div class="products-container">
+        <!--Sneaker no.1-->
+        <div class="products">
+            <!--Nike Air Forces, Retrieved from Bash, <https://bash.com/nike-men-s-air-force-1-lv8-se-khaki-black-sneaker-060601aggz5/p?idsku=1704300&bash_campaign=20746270549&gad_source=1&gclid=Cj0KCQjwkZm_BhDrARIsAAEbX1F4A4XE5cAszpFsgIK1yvaQh9yqGF7ilu4t7gQcj8kL5TauVnu2ersaAl3NEALw_wcB >,
+            Retrieved on 28 March 2025-->
+            <img src="assets/Sneaker 1.png" alt="Nike Men's Air Force 1 LV8 SE Khaki/Black Sneaker">
+            <p>Nike Men's Air Force 1 LV8 SE Khaki/Black Sneaker</p>
+            <p>R 2,599.95</p>
+            <button class="purchase-btn" onclick="buyNow('Nike Mens Air Force 1 LV8 SE Khaki/Black Sneaker')">Add To Cart</button>
+        </div>
+        <!--Sneaker no.2-->
+        <div class="products">
+            <!--Adidas Sneakers for Men, Retrieved from Bash, <https://bash.com/adidas-originals-men-s-alphaedge-black-sneaker-060601agoj2/p?idsku=1634026&bash_campaign=19650587691&gad_source=1&gclid=Cj0KCQjwkZm_BhDrARIsAAEbX1GKIPyiXWee5j1BZDjU2c7UVwee_P42fK74hxKymNRzjbTM3d0TEAMaAhZVEALw_wcB >
+            Retrieved on 28 March 2025-->
+            <img src="assets/Sneaker 2.png" alt="adidas Originals Men's Alphaedge + Black Sneaker">
+            <p>adidas Originals Men's Alphaedge + Black Sneaker</p>
+            <p>R 1,299.95</p>
+            <button class="purchase-btn" onclick="buyNow('adidas Originals Mens Alphaedge + Black Sneaker')">Add To Cart</button>
+        </div>
+        <!--Sneaker three which contains a discount offer-->
+        <div class="products">
+            <div class="discount-indicator">50% OFF</div>
+            <!--Puma Sneakers, Retrieved From Puma, < https://za.puma.com/pd/rebound-sneakers/392326_34.html?mktID=DSP_NEW%3AGGL_PMAX%3APerformanceMax%3AZA&utm_medium=DSP_NEW&utm_source=GGL_PMAX&utm_campaign=PerformanceMax&gad_source=1&gclid=Cj0KCQjwkZm_BhDrARIsAAEbX1Gbi1W7BDl4nuPQGAbozMD9-nwjqNgBXEMk7op41EW6mj6AW4auDDoaAtyqEALw_wcB >,
+            Retrieved on 28 March 2025-->
+            <img src="assets/Sneaker 3.avif" alt="Puma Rebound Sneakers" >
+            <p>Puma Rebound Sneakers</p>
+            <p><s>R 1,399</s></p>
+            <p><b>R 699.50</b></p>
+            <button class="purchase-btn" onclick="buyNow('Puma Rebound Sneakers')">Add To Cart</button>
+        </div>
+        </div>
+    </div>
+    <footer>&copy; 2025 Ghosty Fits Sneaker Shop</footer>
+</body>
+</html>

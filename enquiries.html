@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiries</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script>
+        function submitQuery(){
+            alert("Your enquiry has been delivered. You may wait for a response, which may not take longer than 24 hrs")
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Shop Logo">
+        Enquiry Form
+    </header>
+
+    <nav>
+        <a href="index.html"> Home</a>
+        <a href="aboutus.html"> About Us</a>
+        <a href="products.html">Shop</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+        <!--I changed up the formatt of the enquiry form so that it forces a usuer to type email instead of just leaving it blank-->
+    <div class="form">
+        <form>
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="name" placeholder="Email Account" required>
+            <textarea name="message" rows="4" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+
+</body>
+<footer>&copy; 2025 Ghosty Fits Sneaker Shop</footer>
+</html>
